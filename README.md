@@ -14,7 +14,4 @@ Sistema de administración y gestión de préstamos.
 6. [ Pasos para generar Push y Pull](./docs_Install/pushPull.md)
 7. [ Pasos de la instalación del ZSH](./docs_Install/Install_zsh.md)
 
-## Extras
-* [Manual de usuario](./docs/MANUAL.md)
-* [ Pasos para generar Push y Pull](./docs_Install/pushPull.md)
-* [ Pasos de la instalación del ZSH](./docs_Install/Install_zsh.md)
+
