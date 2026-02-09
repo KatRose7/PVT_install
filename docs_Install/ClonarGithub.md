@@ -19,19 +19,28 @@ Requisitos mínimos
 ```sh
  git clone <url copiado de code-ssh de github>
 ```
+3. Ingresamos a la carpeta del proyecto y abrimos el proyecto con el comando: 
+
+```sh
+ code .
+```
+
 ## Preparar el git
 * Preparamos el git para tener bien dirigido donde vamos a subir y bajar los cambios que se hagan en el proyecto.
 
-Todos estos comandos deben de escribirse en la carpeta donde se creo el proyecto.
+Todos estos comandos deben de escribirse en la terminal del proyecto.
 
-Para ello primero añadimos al git el usuario y el email de github con los comados 
+Para ello primero añadimos al git el usuario 
 ```sh
-git config –global user.name “nombre_de_usuario_github”
-git config –global user.email “correo_con_el_que_se_creo_la_cuenta_github”
-```
+git remote -v
+
 * Ahora añadimos el url del proyecto principal para descargar los cambios directamente. Con el comando
 ```sh
  git remote add upstream <url copiado de code-ssh de github del proyecto original>
+```
+Y volvemos a escribir el comando
+```sh
+git remote -v
 ```
 
 Con estos preparativos ya podremos subir y bajar cambios de github

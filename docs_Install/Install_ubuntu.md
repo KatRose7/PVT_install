@@ -68,3 +68,6 @@ Requisitos minimos del sistema para Ubuntu
 
 
 ![](https://raw.githubusercontent.com/IvetteCh/PVT_install/main/screenshot_Install/ubuntu-gnome.jpg)
+
+
+

@@ -11,7 +11,8 @@ Sistema de administración y gestión de préstamos.
 3. [ Generar la llave SSH en github](./docs_Install/generate_ssh.md)
 4. [ Como clonar el proyecto desde github](./docs_Install/ClonarGithub.md)
 5. [ Instalar docker ](./docs_Install/Install_Docker.md)
-6. [ Despliegue de docker](./docs_Install/Despliegue_Docker.md)
+6. [ Pasos para generar Push y Pull](./docs_Install/pushPull.md)
+7. [ Pasos de la instalación del ZSH](./docs_Install/Install_zsh.md)
 
 ## Extras
 * [Manual de usuario](./docs/MANUAL.md)
