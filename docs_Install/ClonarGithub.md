@@ -26,19 +26,16 @@ Requisitos mínimos
 ```
 
 ## Preparar el git
-* Preparamos el git para tener bien dirigido donde vamos a subir y bajar los cambios que se hagan en el proyecto.
-
-Todos estos comandos deben de escribirse en la terminal del proyecto.
-
-Para ello primero añadimos al git el usuario 
+* Preparamos el git para tener bien dirigido donde vamos a subir y bajar los cambios que se hagan en el proyecto. Todos estos comandos deben de escribirse en la terminal del proyecto. Para ello primero añadimos al git el usuario 
 ```sh
 git remote -v
+```
 
 * Ahora añadimos el url del proyecto principal para descargar los cambios directamente. Con el comando
 ```sh
  git remote add upstream <url copiado de code-ssh de github del proyecto original>
 ```
-Y volvemos a escribir el comando
+Volvemos a escribir el comando
 ```sh
 git remote -v
 ```

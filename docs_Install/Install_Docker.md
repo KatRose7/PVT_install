@@ -3,6 +3,8 @@
 
 ## Instalación Docker
 
+![](screenshot_Install/Docker.png)
+
 Para instalar Docker desde los repositorios oficiales de Ubuntu
 
 * Primero desinstalamos cualquier versión de docker en el equipo para instalar la más actual  y así evitar errores futuros.

@@ -16,23 +16,23 @@
 
 ### - Ahora instale ZSH con el siguiente comando:
 
-     $ sudo apt-get install zsh
+     $ sudo apt install zsh
 
- ![](https://raw.githubusercontent.com/IvetteCh/PVT_install/main/screenshot_Install/f647fcfb24c34daa688d3d8919d994923a5db4f5d64da878d17499b7cde26dd7.png )
+ ![](https://raw.githubusercontent.com/IvetteCh/PVT_install/main/screenshot_Install/instalacion2.png )
 
 Ahora presione [S] y luego presione continuar.
 
-![](https://raw.githubusercontent.com/IvetteCh/PVT_install/main/screenshot_Install/911b4f92ef1cd1c43809a04598caa4ad80864169f428b986043b714f6ae2308e.png)
+![](https://raw.githubusercontent.com/IvetteCh/PVT_install/main/screenshot_Install/instalacion3.png)
 
-### - Se debe instalar el shell ZSH .
+### - Se debe cambiar ZSH como shell por defecto, con el siguiente comando
 
-![](https://raw.githubusercontent.com/IvetteCh/PVT_install/main/screenshot_Install/11cee62b0da64a757f9e80297cb4a4fa7a6cbea900e07092c8dcbf9d056a79fa.png)
+     $ chsh -s $(which zsh)
 
 
 ### - Ahora que el shell ZSH está instalado, puede verificar si ZSH funciona con el siguiente comando:
 
       $ zsh --version
 
- ![](https://raw.githubusercontent.com/IvetteCh/PVT_install/main/screenshot_Install/e0f4277e31d75bb78282089908a4a56c265f28b00c74404cbfca20dfba2eeaf2.png)
+ ![](https://raw.githubusercontent.com/IvetteCh/PVT_install/main/screenshot_Install/instalacion4.png)
 
 Como puede ver, ZSH está funcionando correctamente.
