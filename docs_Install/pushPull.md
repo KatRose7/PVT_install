@@ -12,6 +12,10 @@ git init
 git add pushPull.md
 ```
 
+## Agregar todo
+```sh
+git add .
+``` 
 ## Verificar que se añadio el archivo
 ```sh
 git status
@@ -19,10 +23,10 @@ git status
 
 ## Crea el commit o evento con un nombre " nuevas imagenes"
 ```sh
-git commint -m "nuevas imagenes "
+git commit -m "nuevas imagenes"
 ```
 
-## Subir al repositorio local de la rama "main" 
+## Subir al repositorio remoto (GitHub)  de la rama "main" 
 ```sh
 git push origin main
 ```
@@ -31,7 +35,7 @@ git push origin main
 
 ## DIRECCIONANDO A MUTUAL-DE-SERVICIOS-AL-POLICIA/PVT_install.git
 ```sh
-git remote set-url main git@github.com:MUTUAL-DE-SERVICIOS-AL-POLICIA/PVT_install.git
+git remote set-url origin git@github.com:MUTUAL-DE-SERVICIOS-AL-POLICIA/PVT_install.git
 ```
 
 
@@ -41,14 +45,14 @@ git remote -v
 ```
 
 # _GENERANDO EL PULL_
-## Subiendo el archivo a la rama main del repositorio
+## Verificar el estado del repositorio
 ```sh
-git push origin main
+git status
 ``` 
 
-## Subiendo el archivo a la rama main principal
+## Descargar cambios desde GitHub
 ```sh
-git push origin main main
+git pull origin main
 ``` 
 
 
@@ -56,7 +60,13 @@ git push origin main main
 
 ![](https://github.com/DiegooGutierrez123321/PVT_install/blob/main/Screenshot_Install/Captura%20de%20pantalla%20de%202021-04-07%2011-35-52.png?raw=true)
 
-## Descargar en el repositorio local los cambios hecho por otras ramas
+## El Pull Request se genera desde la plataforma web de GitHub despues de subir los cambios al repositorio remoto.
+
+## Luego ingresar a GitHub y seleccionar  Create Pull Request.
+
+## Descargar cambios en el repositorio local.
+
 ```sh
-git pull main main
+git pull origin main
 ``` 
+

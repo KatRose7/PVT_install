@@ -10,7 +10,7 @@
 
       $ sudo apt update
 
-![](https://raw.githubusercontent.com/IvetteCh/PVT_install/main/screenshot_Install/instalacion1.png)
+![](../screenshot_Install/instalacion1.png)
 
   La caché del repositorio de paquetes debe actualizarse.  
 
@@ -18,11 +18,11 @@
 
      $ sudo apt install zsh
 
- ![](https://raw.githubusercontent.com/IvetteCh/PVT_install/main/screenshot_Install/instalacion2.png )
+ ![](../screenshot_Install/instalacion2.png)
 
 Ahora presione [S] y luego presione continuar.
 
-![](https://raw.githubusercontent.com/IvetteCh/PVT_install/main/screenshot_Install/instalacion3.png)
+![](../screenshot_Install/instalacion3.png)
 
 ### - Se debe cambiar ZSH como shell por defecto, con el siguiente comando
 
@@ -33,6 +33,6 @@ Ahora presione [S] y luego presione continuar.
 
       $ zsh --version
 
- ![](https://raw.githubusercontent.com/IvetteCh/PVT_install/main/screenshot_Install/instalacion4.png)
+ ![](../screenshot_Install/instalacion4.png)
 
 Como puede ver, ZSH está funcionando correctamente.
