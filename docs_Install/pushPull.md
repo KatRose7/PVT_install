@@ -39,7 +39,7 @@ git remote set-url origin git@github.com:MUTUAL-DE-SERVICIOS-AL-POLICIA/PVT_inst
 ```
 
 
-## VERIFICANDO LOS ESTADOS DE LAS RAMAS
+* VERIFICANDO LOS ESTADOS DE LAS RAMAS
 ```sh
 git remote -v
 ```
@@ -60,11 +60,11 @@ git pull origin main
 
 ![](https://github.com/DiegooGutierrez123321/PVT_install/blob/main/Screenshot_Install/Captura%20de%20pantalla%20de%202021-04-07%2011-35-52.png?raw=true)
 
-## El Pull Request se genera desde la plataforma web de GitHub despues de subir los cambios al repositorio remoto.
+*El Pull Request se genera desde la plataforma web de GitHub despues de subir los cambios al repositorio remoto.
 
-## Luego ingresar a GitHub y seleccionar  Create Pull Request.
+*Luego ingresar a GitHub y seleccionar  Create Pull Request.
 
-## Descargar cambios en el repositorio local.
+*Descargar cambios en el repositorio local.
 
 ```sh
 git pull origin main
